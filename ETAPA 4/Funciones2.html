@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <font face="Arial">
+        <h2>Funciones de cadenas JavaScript</h2>
+ 
+        <script type="text/JavaScript">
+            //concatena 3 cadenas de texto
+            let text1="Estas Programando"
+            let text2="con funciones preedefinidas";
+            let text3="para unir cadenas de texto con JavaScript";
+            let concatena=text1.concat("", text2, "", text3);
+            document.write(concatena, "<br><br>");
+           
+            //Extrae del caracter 2 al 14 de la cadena de texto1
+            let texto1 = "Técnico Programación Web";
+            let extraer = texto1.substring(2, 14);
+            document.write("Aquí extraer la parte indicada de la cadena:",extraer,"<br><br>");
+ 
+            //separa la cadena de acuerdo a lo indicado en la función
+            let texto2 = "Estas programando en JavaScript con funciones predefinidas";
+            arreglo1 = texto2.split(" ");
+            document.write("Aquí separa por comas la cadena:", arreglo1,"<br><br>");
+            let palabra=arreglo1[1];
+ 
+            arreglo2 = texto2.split("",4);
+            document.write("Aqui se separa por comas las primeras 4 palabras de la cadena:", arreglo2)
+ 
+ 
+        </script>
+ 
+    </font>
+</body>
+</html>
